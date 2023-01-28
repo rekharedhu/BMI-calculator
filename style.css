@@ -1,0 +1,69 @@
+body{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+    top: 50%;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgb(28, 101, 101);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.option{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+   
+}
+
+    h1{
+        color: white;
+        font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 10px;
+}
+#btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: azure;
+    
+    padding: 6px;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+
+}
+#btn:hover{
+    background-color: rgb(160, 229, 208);
+    color: white;
+}
+#result{
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
